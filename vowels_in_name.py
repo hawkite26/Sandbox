@@ -8,7 +8,7 @@ def check_for_vowels(name):
     """Check for vowels"""
     vowels = 0
     for letter in name.lower():
-        if letter == "a" or letter == "e" or letter == "i" or letter == "o" or letter == "u":
+        if letter in 'aeiou':
             vowels += 1
     return vowels
 
