@@ -4,3 +4,7 @@ user_age = input("Age: ")
 ages_dict[user_name] = user_age
 for name in ages_dict:
     print("{:7} - {:>5}".format(name, ages_dict[name]))
+
+# or:
+# for name, age in ages_dict.items():
+#   print("{} - {}".format(name, age))
